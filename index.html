@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="Imagenes/Logo.png" alt="Logo">
+    </header>
+    <main>
+        <section class="seccion-1">
+            <div class="contenedor">
+                <textarea placeholder="Ingrese el texto aquí" class="text-area"></textarea>
+            </div>
+            <div class="alerta">
+                <img src="Group.png" alt="alerta">
+                <p>Solo letras minusculas y sin acentos</p>
+            </div>
+            <div class="botones">
+                <input type="button" class="btn-encriptar" value="Encriptar">
+                <input type="button" class="btn-desencriptar"   value="Desencriptar">
+            </div>
+        </section>
+        <section class="seccion-2">
+            <div class="contenedor-muneco">
+                <img class="muneco" src="Imagenes/Muñeco.png" alt="Muneco">
+            </div>
+            <div class="parrafo">
+                <h3>Ningun mensaje fue <br> encontrado</h3>
+                <p>Ingresa el texto que desees encriptar o <br> desencriptar</p>
+            </div>
+            <div class="contenedor-copiar">
+                <input class="btn-copiar" type="button"value="Copiar">
+            </div>
+            <div class="resultado">
+                <p class="texto-resultado"></p>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
